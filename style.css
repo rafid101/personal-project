@@ -1,0 +1,151 @@
+  
+body{
+    font-family: roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header{
+    background-color: #1F2937;
+}
+.hero-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.header-text{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.hero-2-text{
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.header{
+   
+    flex-direction: column;
+    justify-content: space-around;
+}
+.header-part-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-part-2{
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    margin-top: 55px;
+    height: 400px;
+}
+.h-p-2-1{
+    width: 25%;
+}
+#header-1{
+    margin-top: 25px;
+}
+#content-1-header{
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 40px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 350px;
+  
+}
+.card{
+    width: 200px;
+    height: auto;
+    text-align: center;
+}
+.img-content{
+    border-radius: 10%;
+}
+.p-content{
+    font-size: 14px;
+    color: #1f2937;
+}
+.content-2{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    flex-direction: column;
+}
+#quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 30%;
+}
+#quote-teller{
+    margin-left: 350px;
+}
+.c-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    width: 70%;
+    margin-left: 11%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border: 10px solid #3882f6;
+    padding: 3%;
+    border-radius: 15px;
+}
+
+#call-to{
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    color: #f9faf8;
+}
+#call-to-text{
+    color: #E5E7EB;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    font-size: 20px;
+    height: 60px;
+    color: #E5E7EB;
+}
+button{
+    padding: 2%;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 15px;
+    border: none;
+    background-color: #3882f6;
+    color: white;
+}
+#last-one{
+    border: solid white 2px;
+
+}
